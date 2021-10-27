@@ -1,0 +1,340 @@
+body {
+  background-color: black;
+}
+
+
+h1 {
+  font-family: 'Limelight', cursive;
+  /* color:#d0a92c; */
+  color: transparent;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 5%;
+  left: 50%;
+  padding: 10px;
+  /* text-align: center; */
+  /* text-shadow:
+    0 0 7px #ceaa33,
+    0 0 10px #ccab3e,
+    0 0 21px #ccaf4e,
+    0 0 42px #c4ad63,
+    0 0 82px #c0ae74,
+    0 0 92px #c2b485,
+    0 0 102px #c0b590,
+    0 0 151px #bdb6a0; */
+  background-image: linear-gradient(
+    to right,
+    #462523 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #462523 100%
+  );
+  -webkit-background-clip:text;
+  letter-spacing: 10px;
+}
+
+h2 {
+  font-family: 'Limelight', cursive;
+  color: transparent;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 10%;
+  left: 50%;
+  padding: 10px;
+
+  background-image: linear-gradient(
+    to right,
+    #462523 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #462523 100%
+  );
+  -webkit-background-clip:text;
+  letter-spacing: 5px;
+}
+
+#text_one {
+  font-family: 'Poiret One', cursive;
+  /* color: #d0a92c; */
+  text-align: center;
+  color: transparent;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 50%;
+  padding: 10px;
+  font-weight: 300;
+  background-image: linear-gradient(
+    to right,
+    #462523 0,
+    #cb9b51 10%,
+    #f6e27a 40%,
+    #f6f2c0 50%,
+    #f6e27a 60%,
+    #cb9b51 90%,
+    #462523 100%
+  );
+  -webkit-background-clip:text;
+  letter-spacing: 5px;
+}
+
+#text_two {
+  font-family: 'Poiret One', cursive;
+  /* color: #d0a92c; */
+  text-align: center;
+  color: transparent;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 75%;
+  left: 50%;
+  padding: 10px;
+  font-weight: 300;
+  background-image: linear-gradient(
+    to right,
+    #462523 0,
+    #cb9b51 10%,
+    #f6e27a 40%,
+    #f6f2c0 50%,
+    #f6e27a 60%,
+    #cb9b51 90%,
+    #462523 100%
+  );
+  -webkit-background-clip:text;
+  letter-spacing: 5px;
+}
+
+.socialm > li > a {
+  /* color: #d0a92c; */
+  font-size: 25px;
+  color: transparent;
+  /* position: absolute; */
+  text-align: center;
+  transform: translate(-50%, -50%);
+  /* top: 70%;
+  left: 50%; */
+  padding: 10px;
+
+  background-image: linear-gradient(
+    to right,
+    #462523 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #462523 100%
+  );
+  -webkit-background-clip:text;
+  letter-spacing: 5px;
+}
+
+.socialm > li{
+  display: inline;
+  padding: 10px;
+}
+
+.socialm{
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 37%;
+}
+
+.button {
+  /* color: #d0a92c; */
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  text-align: center;
+  text-shadow:
+    0 0 1px #ece1b2,
+    0 0 7px #ceaa33,
+    0 0 10px #ccab3e,
+    0 0 21px #ccaf4e,
+    0 0 42px #c4ad63,
+    0 0 82px #c0ae74,
+    0 0 92px #c2b485,
+    0 0 102px #c0b590,
+    0 0 151px #bdb6a0;
+  color: transparent;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 65%;
+  left: 50%;
+  padding: 10px;
+
+  background-image: linear-gradient(
+    to right,
+    #462523 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #462523 100%
+  );
+  -webkit-background-clip:text;
+  letter-spacing: 5px;
+}
+
+.button:hover{
+  color: #f1efe5;
+}
+
+.profile_pic {
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+#top_left{
+  position: fixed;
+  top: 1px;
+  left: 5px;
+  z-index: -1;
+}
+
+#top_right{
+  position: fixed;
+  top: 1px;
+  right: 5px;
+  z-index: -1;
+}
+
+#bottom_left{
+  position: fixed;
+  bottom: 1px;
+  left: 5px;
+  z-index: -1;
+}
+
+#bottom_right{
+  position: fixed;
+  bottom: 1px;
+  right: 5px;
+  z-index: -1;
+}
+
+#separator {
+  position: fixed;
+  top: 50%;
+  margin-left: 32%;
+  margin-right: 30%;
+  /* left: 32%; */
+  /* width: 70%; */
+}
+
+#left_card{
+  position: fixed;
+  /* z-index: -10; */
+  top: 30%;
+  left: 5%;
+  box-shadow:
+    0 0 4px #f5f4f0,
+    0 0 7px #ceaa33,
+    0 0 10px #ccab3e,
+    0 0 21px #ccaf4e,
+    0 0 42px #c4ad63;
+}
+
+#right_card{
+  position: fixed;
+  /* z-index: -10; */
+  top: 30%;
+  right: 5%;
+  box-shadow:
+    0 0 4px #f5f4f0,
+    0 0 7px #ceaa33,
+    0 0 10px #ccab3e,
+    0 0 21px #ccaf4e,
+    0 0 42px #c4ad63;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  padding: 3px;
+}
+
+/* .master_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+
+.cards:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+/*
+#card_text_left {
+  font-family: 'Limelight', cursive;
+  color: #d0a92c;
+  font-size: 25px;
+  z-index: 1;
+  /* top: 50%;
+  left: 9%; */
+  /* margin-left: 9%;
+  margin-top: -13%;
+} */
+
+/* #card_text_right {
+  font-family: 'Limelight', cursive;
+  color: #d0a92c;
+  font-size: 25px;
+  z-index: 1; */
+  /* top: 50%;
+  right: 30%; */
+  /* margin-right: 1%;
+  margin-top: -13%;
+  margin-left: 82%;
+  margin-bottom: 30%;
+} */
